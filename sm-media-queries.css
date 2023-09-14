@@ -1,0 +1,269 @@
+
+/* Styles for sm screens */
+@media screen and  (min-width: 576px) and (max-width: 767px)  {
+  /* Your styles for xs screens go here */
+*{
+  max-width: 100vw;
+}
+
+.container{
+  align-items: center;
+  justify-content: center;
+}
+.hero{
+  padding-top: 0;
+}
+.menu{
+justify-content: space-evenly;
+}
+
+.menu-item1, .menu-item2, .menu-item{
+  justify-content: center;
+  align-items: center;
+  width: 100%
+}
+
+.neon1-1-icon{
+ width: auto;
+ max-width: 100%;
+ height: auto;
+  display:block;}
+
+  .content1{
+    padding: 1.5rem;
+  }
+.title, .title1,.ttitle {
+  font-size: 2rem;
+  margin: 0 auto;
+
+}
+.description, .description1, .text-about{
+  font-size: 1rem;
+}
+.header{
+  height: 12rem
+}
+.projects{
+  gap:10px;
+}
+.project, .project1{
+  padding:1rem;
+  flex-direction: column;
+}
+.project, .project1{
+  margin: 0 10px;
+
+}
+.left{
+  row-gap: 10px;
+}
+.text2{
+  row-gap: 7px;
+}
+
+.title2{
+  font-size: 1.5rem;
+}
+
+.description2, .text-about{
+  font-size: 0.9rem;
+}
+/* projects button 1  */
+.button{
+  padding: 0.6rem;
+}
+
+.text3{
+  font-size: 0.8rem;
+  line-height: 14px;
+}
+/*xs- projects video 1- andrew cilla */
+.image-icon{
+  /* width: 100%; */
+  height: auto;
+  object-fit: contain;
+  max-width: 100%;
+margin-top: 3px;
+}
+
+/*smdownload resume link +logo */
+.download-my-resume{
+  font-size: 15px;
+
+}
+.download-icon{
+  width: 24px;
+height: auto;
+}
+
+/* smwork section */
+.about-section{
+  padding: 0;
+  height: auto;
+  gap:1rem;
+  margin-bottom: 4rem;
+
+}
+
+.about-me-about-bio{
+  gap: 10px;  
+  margin-top: 1rem;
+  padding: 3rem;
+}
+
+.text-about-parent{
+  align-items: flex-start;
+  max-width: 100%;
+  flex-direction: column;
+  row-gap: 11px;
+}
+
+.text-about{
+  width: 100%;
+  max-width: 100%;
+  padding: 0 10px;
+  padding-bottom: 10px;
+}
+
+.section{
+  height: auto;
+}
+.skills{
+  width:100%;
+  max-width: 100%;
+  gap:0;
+  /* text cemter */
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.row{
+  font-size: small;
+  max-width: 100%;
+  justify-content: space-evenly;
+  padding: 10px 10px 0px 10px;
+}
+.list, .list1{
+  gap: 0;
+  font-size: x-small;
+  padding:0;
+  max-width: 48%;
+
+}
+.avatar {
+
+  align-items: flex-center;
+}
+/* smcontact section */
+.content2,.header1{
+  gap:1rem;
+}
+
+.title5{
+  font-size: 2rem;
+}
+.description5{
+  font-size: 1rem;
+}
+
+
+.content{
+  height: auto;
+}
+
+
+.description-2{
+  font-size: .8rem;
+}
+
+/* DOTTED LINE EFFECT */
+/* .hr {
+  width: 100%;
+  height: 1px;
+  display: block;
+  position: relative;
+  margin-bottom: 0em;
+  padding: .5rem 0;
+}
+
+.hr:after,
+.hr:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  bottom: 50%;
+  left: 0;
+}
+
+.hr:before {
+  background: linear-gradient(90deg, #10111F 0%, #10111F 50%, transparent 50%, transparent 100%);
+  background-size: 1px;
+  background-position: center;
+  z-index: 1;
+}
+
+.hr:after {
+  transition: opacity 0.3s ease, animation 0.3s ease;
+  background: linear-gradient(to right, #62efab 5%, #F2EA7D 15%, #F2EA7D 25%, #FF8797 35%, #FF8797 45%, #e1a4f4 55%, #e1a4f4 65%, #82fff4 75%, #82fff4 85%, #62efab 95%);
+  background-size: 200%;
+  background-position: 0%;
+  animation: bar 15s linear infinite;
+}
+
+@keyframes bar {
+  0% { background-position: 0%; }
+  100% { background-position: 200%; }
+}
+
+.hr.anim:before {
+  background: linear-gradient(90deg, #10111F 0%, #10111F 5%, transparent 5%, transparent 10%, #10111F 10%, #10111F 15%, transparent 15%, transparent 20%, #10111F 20%, #10111F 25%, transparent 25%, transparent 30%, #10111F 30%, #10111F 35%, transparent 35%, transparent 40%, #10111F 40%, #10111F 45%, transparent 45%, transparent 50%, #10111F 50%, #10111F 55%, transparent 55%, transparent 60%, #10111F 60%, #10111F 65%, transparent 65%, transparent 70%, #10111F 70%, #10111F 75%, transparent 75%, transparent 80%, #10111F 80%, #10111F 85%, transparent 85%, transparent 90%, #10111F 90%, #10111F 95%, transparent 95%, transparent 100%);
+  background-size: 150px;
+  background-position: center;
+  z-index: 1;
+  animation: bar 120s linear infinite;
+}
+
+.hr.anim:hover:before {
+  animation-duration: 20s;
+}
+
+.hr.anim:hover:after {
+  animation-duration: 2s;
+} */
+
+/*  */
+
+
+}
+
+
+.text-animation {
+  text-transform: uppercase;
+  background-image: linear-gradient(
+    -90deg,
+    #ffffff 0%,
+    #ffffff 38%,
+    var(--accent-4),
+    var(--accent-3),
+ var(--accent-1),
+    #ffffff 58%,
+    #ffffff 100%
+);
+  background-size: auto auto;
+  background-clip: border-box;
+  background-size: 200% auto;
+  color: #fff;
+  background-clip: text;
+  text-fill-color: transparent;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: textclip 2s linear infinite;
+  display: inline-block;
+  font-family:'Roboto Mono', monospace;;
+}
+@keyframes textclip {
+  to {
+    background-position: 200% center;
+  }
+}

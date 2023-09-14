@@ -1,0 +1,194 @@
+
+/* Styles for md screens */
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+    /* Your styles for smscreens go here */
+  *{
+    max-width: 100vw;
+  }
+  
+  .container{
+    align-items: center;
+    justify-content: center;
+  }
+  .hero{
+    padding-top: 0;
+  }
+  .menu{
+  justify-content: space-evenly;
+  font-size: 1.5rem;
+  }
+  
+  .menu-item1, .menu-item2, .menu-item{
+    justify-content: center;
+    align-items: center;
+    width: 100%
+  }
+  
+  .neon1-1-icon{
+   width: auto;
+   max-width: 100%;
+   height: auto;
+    display:block;}
+  
+    .content1{
+      padding: 1.5rem;
+    }
+  .title, .title1,.ttitle {
+    font-size: 3rem;
+    margin: 0 auto;
+  
+  }
+  .description, .description1, .text-about{
+    font-size: 1.7rem;
+  }
+  .header{
+    height: auto;
+    padding-bottom: 1rem;
+  }
+  .projects{
+    gap:10px;
+  }
+  .project, .project1{
+    padding:1rem;
+    flex-direction: column;
+  }
+  .project, .project1{
+    margin: 0 10px;
+  
+  }
+  .left{
+    row-gap: 10px;
+  }
+  .text2{
+    row-gap: 7px;
+  }
+  
+  .title2{
+    font-size: 1.5rem;
+  }
+  
+
+  /* projects button 1  */
+  .button{
+    padding: 0.6rem;
+  }
+  
+  .text3{
+    font-size: 0.8rem;
+    line-height: 14px;
+  }
+  /*xs- projects video 1- andrew cilla */
+  .image-icon{
+    /* width: 100%; */
+    height: auto;
+    object-fit: contain;
+    max-width: 100%;
+  margin-top: 3px;
+  }
+  
+  /*smdownload resume link +logo */
+  .download-my-resume{
+    font-size: 20px;
+  
+  }
+  .download-icon{
+    width: 24px;
+  height: auto;
+  }
+  
+  /* smwork section */
+
+  .work1{
+    align-items: center;
+    max-width: 100vw;
+    padding: 1.25rem;
+  }
+  .about-section{
+    padding: 0;
+    height: auto;
+    gap:1rem;
+    margin-bottom: 4rem;
+  
+  }
+  
+  .about-me-about-bio{
+    gap: 10px;  
+    margin-top: 1rem;
+    padding: 3rem;
+  }
+  
+  .text-about-parent{
+    align-items: center;
+    max-width: 100%;
+    flex-direction: column;
+    row-gap: 11px;
+  }
+  
+  .text-about{
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    padding-bottom: 10px;
+  }
+  
+  .section{
+    height: auto;
+  }
+  .skills{
+    width:100%;
+    max-width: 100%;
+    gap:0;
+    /* text cemter */
+    align-items: center;
+    margin-top: 1rem;
+  }
+  
+  .row{
+    font-size: small;
+    max-width: 100%;
+    justify-content: space-evenly;
+    padding: 10px 10px 0px 10px;
+  }
+  .list, .list1{
+    gap: 0;
+    font-size: large;
+    padding:0;
+    max-width: 48%;
+  
+  }
+  .avatar {
+  margin: auto;
+    align-items: center;
+
+  }
+  /* smcontact section */
+  .content2,.header1{
+    gap:1rem;
+  }
+  
+  .title5{
+    font-size: 2rem;
+  }
+  .description5{
+    font-size: large;
+    padding: 1rem;
+  }
+  
+  
+  .content{
+    height: auto;
+  }
+  
+  
+  .description-2{
+    font-size: 1.2rem;
+  }
+  
+  .description2, .text-about, .main-paragraph{
+    font-size:1.5rem;
+font-family: var(--paragraph-sm) !important;
+
+  }
+  
+  
+  }
