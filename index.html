@@ -26,8 +26,27 @@
     /><link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;600;700&display=swap" rel="stylesheet">
+
+ 
+  
   </head>
+
   <body>
+    <svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="filters">
+      <defs>
+          <filter id="goo">
+              <feGaussianBlur in="SourceGraphic" stdDeviation="15" result="blur" />
+              <feColorMatrix in="blur" mode="matrix" values="
+                  1 0 0 0 0  
+                  0 1 0 0 0  
+                  0 0 1 0 0  
+                  0 0 0 24 -9" 
+                  result="goo" />
+              <feComposite in="SourceGraphic" in2="goo" />
+          </filter>
+      </defs>
+  </svg>
+  
     <div class="home">
       <main class="body">
         <header class="navbar">
@@ -59,21 +78,21 @@
           id="contentContainer"
         >
           <section class="hero">
+            <div class="ball">
             <img
               class="neon1-1-icon"
               alt=""
               src="./images/Neon1.png"
               data-animate-on-scroll
             />
-
+          </div>
             <div class="content1" data-animate-on-scroll>
               <div class="text" data-animate-on-scroll>
                 <b class="title " data-animate-on-scroll
                   >Hi, I'm Rachel Cilla</b
                 >
                 <div class="description " data-animate-on-scroll>
-                  I'm a passionate <span class="bold text-animation">&lt;Web Developer/&gt;</span> focused on  merging exceptional design with AI capabilities.  My goal is to harmoniously combine function and beauty to deliver meaningful solutions.
-    
+                  I'm a passionate <span class="bold text-animation"><AI-Integrated Web Developer/></span> specializing in JavaScript with React. I merge exquisite design with cutting-edge AI functionalities, ensuring both aesthetics and intelligence in my solutions. My objective is to seamlessly unite utility and elegance, producing web applications that aren't just user-friendly, but also technically sound and forward-looking
 <!-- <b class="hr"></b> -->
 <!-- <div class="holder">  
   <div class="bar"></div>
@@ -98,8 +117,7 @@
               <b class="title1" data-animate-on-scroll>My work</b>
               <div class="description1 main-paragraph" data-animate-on-scroll>
                 Here's a glimpse of some of my recent and exciting projects.
-                Each of them reflects my focus on user-centered design and my
-                commitment to excellence in user experience.
+                They're a blend of solid coding and a sprinkle of AI innovation. I've had a blast working on each one and making sure they're top-notch for users.
               </div>
               <div class="anchor-header" data-scroll-to="headerContainer"></div>
             </div>
@@ -115,18 +133,13 @@
                   <div class="text1">
                     <div class="text2">
                       <!-- ANDREW CILLA WEBSITE - PROJECT 1 -  -->
-                      <b class="title2">Ecommerce</b>
-                      <div class="role">2023 - Product design</div>
-                      <div class="description2">
-                        Transformed an e-commerce website with a modern
-                        redesign, optimizing the shopping journey and elevating
-                        brand identity. Resulted in improved user engagement,
-                        increased sales, and a seamless shopping experience.
-                      </div>
-                    </div>
-                  </div>
-                  <div class="button">
-                    <div class="text3">Read case study</div>
+<b class="title2">Static Web Design</b>
+
+<div class="role">2022 - UI & Web Design</div>
+<div class="description2">
+  Using JavaScript, HTML, and CSS, I whipped up a static website. The user experience and design were tailored to match the client's vision and brand feel. It's not just about good looks; the design elements work together to reflect the brand's core values, making it user-friendly and authentic to the brand.</div>
+                  <div class="button1">
+                    <div class="text3">Visit Website</div>
                   </div>
                 </div>
                 <!-- PROJECT 1 - ANDREW CILLA- VIDEO -->
@@ -141,19 +154,16 @@
                   <div class="text1">
                     <div class="text2">
                       <!-- YOGA APP-  PROJECT 2 -->
-                      <b class="title2">Tour Booking App</b>
-                      <div class="role">2023 - Product design</div>
+                      <b class="title2">Yoga App</b>
+                      <div class="role">2023 - Full Stack</div>
                       <div class="description2">
-                        Designed a user-friendly travel booking app that enables
-                        users to effortlessly plan and book their dream
-                        vacations. The app offers a seamless experience for
-                        browsing destinations, selecting packages, and managing
-                        reservations, making travel planning a breeze
+                        A web app that uses React on the frontend with an SQL Database and Node.js + Express server in the backend. Users can search for yoga poses tailored to their preferences, explore guides and visuals, and save the ones they want to practice regularly.
                       </div>
                     </div>
                   </div>
-                  <div class="button">
-                    <div class="text3">Read case study</div>
+                  <div class="button2">
+
+                    <div class="text3">Visit Website</div>
                   </div>
                 </div>
         
@@ -170,11 +180,7 @@
                       <b class="title2">Online Streaming App</b>
                       <div class="role">2023 - Product design</div>
                       <div class="description2">
-                        Developed an intuitive online streaming app that brings
-                        entertainment to users' fingertips. The app offers a
-                        vast library of content, smooth playback, and
-                        personalized recommendations, enhancing the user's
-                        streaming experience
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio tempore sed vel, ullam dignissimos ea numquam eaque facilis enim. Iure eius voluptatum nam nemo architecto similique cumque facilis expedita temporibus corrupti quibusdam soluta non ipsum, necessitatibus fuga officia reprehenderit earum!
                       </div>
                     </div>
                   </div>
@@ -206,11 +212,7 @@
               <b class="ttitle" data-animate-on-scroll>About Me</b>
               <div class="text-about-parent " data-animate-on-scroll>
                 <div class="text-about  main-paragraph">
-                  With over 4 years of experience in digital product design, I'm
-                  passionate about creating engaging and functional solutions
-                  that meet users' needs. My focus on user research and
-                  usability ensures that each design not only looks great but
-                  also delivers an exceptional experience
+                  I've been navigating the digital waters for over 4 years. While I've picked up a bit of UI design along the way, my true passion lies in coding and integrating AI into the mix. At the end of the day, I'm all about creating web solutions that aren't just functional but also have that extra edge, thanks to AI.
                 </div>
                 <div class="avatar">
                   <img class="bg-icon" alt="headshot ofrachel with her cat" src="./images/headshot-with-suki.jpg" />
@@ -303,30 +305,34 @@
               <div class="social">
                 <!-- EMAIL ICON -->
                 <div class="social-icon">
-                  <img
+                  <a href="mailto:rachelanntheresa2613@gmail.com">
+                    <img
                     class="email-icon email-icon1"
-                    alt=""
+                    alt="email icon"
                     src="./images/mail.png"
                   />
-<!-- EMAIL -->
-                  <div class="interactive-prototyping">jhankevi@gmail.com</div>
+                </a>
+                 
+<!-- EMAIL --> <a href="mailto:rachelanntheresa2613@gmail.com">
+                  <div class="interactive-prototyping">rachelanntheresa2613@gmail.com</div>
+                </a>
                 </div>
 
 <!-- LINIKED IN -->
                 <div class="social-icon1">
-                  <img
+                  <a href="https://www.linkedin.com/in/rachel-cilla6/"> <img
                     class="email-icon"
                     alt=""
                     src="./images/linkedin1.png"
-                  />
+                  /></a>
+                 
                 </div>
                 <!-- GITHUB -->
                 <div class="social-icon1">
-                  <img
-                    class="email-icon"
-                    alt=""
-                    src="./images/github.png"
-                  />
+                  <a href="https://github.com/rachelCilla">
+                    <img class="email-icon" alt="My GitHub" src="./images/github.png" />
+                </a>
+                
                 </div>
                 <!-- GITHUB -->
             
@@ -343,6 +349,15 @@
     </div>
 
     <script>
+
+    document.querySelector('.button1').addEventListener('click', function() {
+        window.location.href = "https://yoga-project-deploy-frontend.onrender.com/";
+    });
+
+    document.querySelector('.button2').addEventListener('click', function() {
+        window.location.href = "https://andrewcilla.com/";
+    });
+
       var menuItem = document.getElementById("menuItem");
       if (menuItem) {
         menuItem.addEventListener("click", function () {
