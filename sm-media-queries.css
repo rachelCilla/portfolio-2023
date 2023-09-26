@@ -25,7 +25,7 @@ justify-content: space-evenly;
 
 .neon1-1-icon{
  width: auto;
- max-width: 100%;
+ max-width: 70%;
  height: auto;
   display:block;}
 
@@ -38,10 +38,10 @@ justify-content: space-evenly;
 
 }
 .description, .description1, .text-about{
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 .header{
-  height: 12rem
+  height: 14rem
 }
 .projects{
   gap:10px;
@@ -66,7 +66,7 @@ justify-content: space-evenly;
 }
 
 .description2, .text-about{
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 /* projects button 1  */
 .button{
@@ -121,8 +121,8 @@ height: auto;
 .text-about{
   width: 100%;
   max-width: 100%;
-  padding: 0 10px;
-  padding-bottom: 10px;
+  padding: 20px 10px;
+  
 }
 
 .section{
@@ -138,14 +138,14 @@ height: auto;
 }
 
 .row{
-  font-size: small;
+  font-size:large;
   max-width: 100%;
   justify-content: space-evenly;
   padding: 10px 10px 0px 10px;
 }
 .list, .list1{
   gap: 0;
-  font-size: x-small;
+
   padding:0;
   max-width: 48%;
 
@@ -159,9 +159,7 @@ height: auto;
   gap:1rem;
 }
 
-.title5{
-  font-size: 2rem;
-}
+
 .description5{
   font-size: 1rem;
 }
