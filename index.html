@@ -139,7 +139,7 @@
               </div>
 
               <video autoplay muted class="image-icon">
-                <source src="./images/Yoga Project Video.mp4" type="video/mp4">
+                <source src="./images/yogaproject.mp4" type="video/mp4">
                 Your browser does not support the video tag.
               </video>
             </div>
@@ -166,11 +166,12 @@
                 <img class="image-icon" alt="" src="./public/undefined3.png" />
               </div> -->
               <div class="work-inner">
-                <div class="download-my-resume-parent" id="downloadDiv">
+                <div class="download-my-resume-parent" id="downloadDiv" onclick="downloadResume()">
                   <div class="download-my-resume">Download my resume</div>
                   <img class="download-icon" alt="" src="./images/download-icon.png" />
                 </div>
               </div>
+              
               
 
 
@@ -321,15 +322,22 @@
   </div>
 
   <script>
-document.addEventListener("DOMContentLoaded", function() {
-  const downloadDiv = document.getElementById("downloadDiv");
+// document.addEventListener("DOMContentLoaded", function() {
+//   const downloadDiv = document.getElementById("downloadDiv");
 
-  downloadDiv.addEventListener("click", function() {
-    // Assuming 'resume.pdf' is in the same directory as your HTML file
-    window.location.href = "./Rachel_Cilla_Resume2023.pdf";
-  });
-});
-
+//   downloadDiv.addEventListener("click", function() {
+//     // Assuming 'resume.pdf' is in the same directory as your HTML file
+//     window.location.href = "./RachelCillaResume2023.pdf";
+//   });
+// });
+function downloadResume() {
+    var link = document.createElement('a');
+    link.href = './RachelCillaResume2023.pdf';
+    link.download = 'RachelCillaResume2023.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
 
     document.querySelector('.button1').addEventListener('click', function () {
       window.location.href = "https://yoga-project-deploy-frontend.onrender.com/";
