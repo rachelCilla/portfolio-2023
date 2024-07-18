@@ -41,10 +41,12 @@
     font-size: 1rem;
   }
   .header{
-    height: 12rem
+    height: 12rem;
+    width: auto; 
   }
   .projects{
     gap:10px;
+    margin-top: 50px;
   }
   .project, .project1{
     padding:1rem;
@@ -79,7 +81,7 @@
   }
   /*xs- projects video 1- andrew cilla */
   .image-icon{
-    /* width: 100%; */
+     width: 100%; 
     height: auto;
     object-fit: contain;
     max-width: 100%;
@@ -151,8 +153,9 @@
   
   }
   .avatar {
+    width: 50px;
+
   
-    align-items: flex-center;
   }
   /* smcontact section */
   .content2,.header1{
@@ -176,7 +179,9 @@
     font-size: .8rem;
   }
   
-  
+  .circle{
+   
+  }
   
   
   }
